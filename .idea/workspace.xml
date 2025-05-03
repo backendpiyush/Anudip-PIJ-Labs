@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61736d8c-b107-4b0d-b8ad-93718e593800" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anudip_PIJ_Labs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2wXVLV4mUzo21ReNEEB9unZ9o6z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,8 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculator.executor": "Run",
+    "Application.Car.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.Person.executor": "Run",
+    "Application.Rectangle.executor": "Run",
     "Application.Student.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +51,33 @@
     "onboarding.tips.debug.path": "C:/Users/piyus/IdeaProjects/Anudip_PIJ_Labs/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Rectangle">
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_2.Calculator" />
+      <module name="Anudip_PIJ_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_2.Car" />
+      <module name="Anudip_PIJ_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_1.Person" />
       <module name="Anudip_PIJ_Labs" />
@@ -78,8 +104,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_2.Student" />
+      <module name="Anudip_PIJ_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.Person" />
       </list>
